@@ -1,0 +1,41 @@
+{
+    "name": "nunomaduro/skeleton-php",
+    "description": "Laravel Repository",
+    "keywords": ["php", "repository", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyen Van Tien",
+            "email": "nguyen.van.tien@sun-asterisk.com"
+        },
+        {
+            "name": "Nguyen Huu Su",
+            "email": "nguyen.huu.su@sun-asterisk.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0",
+        "illuminate/support": "~5.0|~6.0|~7.0",
+        "illuminate/console": "~5.0|~6.0|~7.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Avengers\\Repository\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Avengers\\Repository\\Providers\\RepositoryServiceProvider"
+          ]
+        }
+    }
+}
