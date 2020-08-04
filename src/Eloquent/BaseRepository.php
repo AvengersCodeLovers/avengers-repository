@@ -4,12 +4,13 @@ declare(strict_types=1);
 
 namespace Avengers\Repository\Eloquent;
 
-use Avengers\Repository\Contracts\RepositoryInterface;
+use Avengers\Repository\Contracts\EloquentRepositoryInterface;
 
 /**
- * Undocumented class
+ * Class BaseRepository
+ * @package Avengers\Repository\Eloquent
  */
-class BaseRepository implements RepositoryInterface
+class BaseRepository implements EloquentRepositoryInterface
 {
     //
 }
