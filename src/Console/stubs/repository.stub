@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+use Avengers\Repository\Eloquent\BaseRepository;
+use App\Repositories\Contracts\DummyClassInterface;
+
+class DummyClass extends BaseRepository implements DummyClassInterface
+{
+    //
+}

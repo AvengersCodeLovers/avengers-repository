@@ -1,0 +1,8 @@
+namespace DummyNamespace;
+
+use Avengers\Repository\Contracts\RepositoryInterface;
+
+interface DummyClass extends RepositoryInterface
+{
+    //
+}
